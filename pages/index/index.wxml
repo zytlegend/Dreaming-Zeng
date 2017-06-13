@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view bindtap="turn">
+<image src="images/cover.png" class="cover" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"></image>
+</view>

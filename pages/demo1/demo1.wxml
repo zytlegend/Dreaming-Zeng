@@ -1,0 +1,9 @@
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-pic" src="images/infopic.png" background-size="cover"></image>
+    <text class="name">曾洋涛\n运维专员</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

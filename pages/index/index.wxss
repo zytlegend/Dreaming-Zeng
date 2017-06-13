@@ -1,0 +1,9 @@
+/**index.wxss**/
+.cover{
+ width:750rpx ;
+ height:1206rpx;
+}
+.covertext{
+  z-index: 2;
+  
+}
