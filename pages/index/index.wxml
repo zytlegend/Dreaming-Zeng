@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view bindtap="turn">
+<image src="{{userInfo.avatarUrl}}" class="userInfo-avatar" background-size="cover"></image>
 <image src="images/cover.png" class="cover" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"></image>
 </view>

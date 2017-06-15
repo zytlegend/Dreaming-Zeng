@@ -11,7 +11,20 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (e) {
-  
+    var that = this;
+    wx.login({
+      success: function () {
+        wx.getUserInfo({
+          success: function (res) {
+            that.globalData.userinfo = res.userInfo;
+            console.log('AAAAAAAA' + that.globalData.userinfo)
+          }
+        })
+      },
+      fail: function () {
+
+      }
+    })
   },
 
   /**
